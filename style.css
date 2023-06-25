@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #E0E8FF;
+    background-image: url("./images/pattern-background-mobile.svg");
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6rem;
+    padding: 7.1rem 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 2em;
+}
+
+main {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    max-width: 327px;
+}
+
+.content-box {
+    padding: 0 1.5em 2em 1.5em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.6rem;
+    font-weight: 900;
+}
+
+.firstParagraph {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 25px;
+    color: #717FA6;
+    margin-bottom: 2.4rem;
+}
+
+.plan-container {
+    display: flex;
+    align-items: center;
+    background-color: #F7F9FF;
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 2.4rem;
+    border-radius: 11px;
+
+}
+
+.plan-container img {
+    margin-right: 2rem;
+}
+
+.plan-container a {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.type-and-price {
+    margin-right: auto;
+}
+
+.plan-type {
+    font-size: 1.4rem;
+    color: #1F2E55;
+    font-weight: 900;
+}
+
+.plan-price {
+    font-size: 1.4rem;
+    color: #717FA6;
+}
+
+.payment {
+    display: block;
+    color: #FFFFFF;
+    background-color: #382AE1;
+    border-radius: 11px;
+    text-decoration: none;
+    padding: 1.5rem;
+    margin-bottom: 2.4rem;
+    font-weight: 900;
+    box-shadow: 0px 4px 4px  #00000036 , 0px 20px 20px 0px  #392ae133;
+}
+
+.cancel-order {
+    font-size: 1.5rem;
+    color: #717FA6;
+    font-weight: 900;
+}
