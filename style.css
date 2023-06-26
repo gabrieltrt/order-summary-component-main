@@ -14,6 +14,8 @@ html {
 body {
     background-color: #E0E8FF;
     background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.6rem;
     padding: 7.1rem 2.4rem;
@@ -104,4 +106,59 @@ h1 {
     font-size: 1.5rem;
     color: #717FA6;
     font-weight: 900;
+}
+
+@media only screen and (min-width: 1023px) {
+
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+
+    main { 
+        max-width: 450px;
+    }
+
+    .content-box {
+        padding: 0 3em 3em 3em;
+    }
+
+    .img-box img {
+        margin-bottom: 2.8125em;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+
+    }
+
+    .firstParagraph {
+        font-size: 1.6rem;
+        margin-bottom: 1.250em;
+    }
+
+    .plan-container {
+        padding: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    .plan-container a {
+        font-size: 1.4rem;
+    }
+
+    .plan-type {
+        font-size: 1.6rem;
+    }
+
+    .plan-price {
+        font-size: 1.6rem;
+    }
+
+    .payment {
+        font-size: 1.5rem;
+        margin-bottom: 2em;
+        padding: 1em 6.5em 1em 6.5em;
+    }
+
+   
+    
 }
