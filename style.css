@@ -111,6 +111,7 @@ h1 {
 @media only screen and (min-width: 1023px) {
 
     body {
+        min-height: 100vh;
         background-image: url(images/pattern-background-desktop.svg);
     }
 
