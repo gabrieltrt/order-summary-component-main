@@ -108,6 +108,8 @@ h1 {
     font-weight: 900;
 }
 
+
+
 @media only screen and (min-width: 1023px) {
 
     body {
@@ -158,6 +160,10 @@ h1 {
         font-size: 1.5rem;
         margin-bottom: 2em;
         padding: 1em 6.5em 1em 6.5em;
+    }
+
+    .cancel-order:hover {
+        cursor: pointer;
     }
     
 }
